@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF14D34E192FEBEB0088C300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34D192FEBEB0088C300 /* Foundation.framework */; };
+		EF14D350192FEBEB0088C300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */; };
+		EF14D352192FEBEB0088C300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D351192FEBEB0088C300 /* UIKit.framework */; };
+		EF14D358192FEBEB0088C300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF14D356192FEBEB0088C300 /* InfoPlist.strings */; };
+		EF14D35A192FEBEB0088C300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF14D359192FEBEB0088C300 /* main.m */; };
+		EF14D35E192FEBEB0088C300 /* DUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF14D35D192FEBEB0088C300 /* DUAppDelegate.m */; };
+		EF14D361192FEBEB0088C300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF14D35F192FEBEB0088C300 /* Main.storyboard */; };
+		EF14D364192FEBEB0088C300 /* DUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF14D363192FEBEB0088C300 /* DUViewController.m */; };
+		EF14D366192FEBEB0088C300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF14D365192FEBEB0088C300 /* Images.xcassets */; };
+		EF14D36D192FEBEB0088C300 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D36C192FEBEB0088C300 /* XCTest.framework */; };
+		EF14D36E192FEBEB0088C300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34D192FEBEB0088C300 /* Foundation.framework */; };
+		EF14D36F192FEBEB0088C300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D351192FEBEB0088C300 /* UIKit.framework */; };
+		EF14D377192FEBEB0088C300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF14D375192FEBEB0088C300 /* InfoPlist.strings */; };
+		EF14D379192FEBEB0088C300 /* Duel_BLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF14D378192FEBEB0088C300 /* Duel_BLETests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF14D370192FEBEB0088C300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF14D342192FEBEB0088C300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF14D349192FEBEB0088C300;
+			remoteInfo = "Duel-BLE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF14D34A192FEBEB0088C300 /* Duel-BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duel-BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF14D34D192FEBEB0088C300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF14D351192FEBEB0088C300 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF14D355192FEBEB0088C300 /* Duel-BLE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Duel-BLE-Info.plist"; sourceTree = "<group>"; };
+		EF14D357192FEBEB0088C300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF14D359192FEBEB0088C300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF14D35B192FEBEB0088C300 /* Duel-BLE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Duel-BLE-Prefix.pch"; sourceTree = "<group>"; };
+		EF14D35C192FEBEB0088C300 /* DUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAppDelegate.h; sourceTree = "<group>"; };
+		EF14D35D192FEBEB0088C300 /* DUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAppDelegate.m; sourceTree = "<group>"; };
+		EF14D360192FEBEB0088C300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF14D362192FEBEB0088C300 /* DUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUViewController.h; sourceTree = "<group>"; };
+		EF14D363192FEBEB0088C300 /* DUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUViewController.m; sourceTree = "<group>"; };
+		EF14D365192FEBEB0088C300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF14D36B192FEBEB0088C300 /* Duel-BLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duel-BLETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF14D36C192FEBEB0088C300 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF14D374192FEBEB0088C300 /* Duel-BLETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Duel-BLETests-Info.plist"; sourceTree = "<group>"; };
+		EF14D376192FEBEB0088C300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF14D378192FEBEB0088C300 /* Duel_BLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Duel_BLETests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF14D347192FEBEB0088C300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14D350192FEBEB0088C300 /* CoreGraphics.framework in Frameworks */,
+				EF14D352192FEBEB0088C300 /* UIKit.framework in Frameworks */,
+				EF14D34E192FEBEB0088C300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF14D368192FEBEB0088C300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14D36D192FEBEB0088C300 /* XCTest.framework in Frameworks */,
+				EF14D36F192FEBEB0088C300 /* UIKit.framework in Frameworks */,
+				EF14D36E192FEBEB0088C300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF14D341192FEBEB0088C300 = {
+			isa = PBXGroup;
+			children = (
+				EF14D353192FEBEB0088C300 /* Duel-BLE */,
+				EF14D372192FEBEB0088C300 /* Duel-BLETests */,
+				EF14D34C192FEBEB0088C300 /* Frameworks */,
+				EF14D34B192FEBEB0088C300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF14D34B192FEBEB0088C300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF14D34A192FEBEB0088C300 /* Duel-BLE.app */,
+				EF14D36B192FEBEB0088C300 /* Duel-BLETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF14D34C192FEBEB0088C300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF14D34D192FEBEB0088C300 /* Foundation.framework */,
+				EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */,
+				EF14D351192FEBEB0088C300 /* UIKit.framework */,
+				EF14D36C192FEBEB0088C300 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF14D353192FEBEB0088C300 /* Duel-BLE */ = {
+			isa = PBXGroup;
+			children = (
+				EF14D35C192FEBEB0088C300 /* DUAppDelegate.h */,
+				EF14D35D192FEBEB0088C300 /* DUAppDelegate.m */,
+				EF14D35F192FEBEB0088C300 /* Main.storyboard */,
+				EF14D362192FEBEB0088C300 /* DUViewController.h */,
+				EF14D363192FEBEB0088C300 /* DUViewController.m */,
+				EF14D365192FEBEB0088C300 /* Images.xcassets */,
+				EF14D354192FEBEB0088C300 /* Supporting Files */,
+			);
+			path = "Duel-BLE";
+			sourceTree = "<group>";
+		};
+		EF14D354192FEBEB0088C300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF14D355192FEBEB0088C300 /* Duel-BLE-Info.plist */,
+				EF14D356192FEBEB0088C300 /* InfoPlist.strings */,
+				EF14D359192FEBEB0088C300 /* main.m */,
+				EF14D35B192FEBEB0088C300 /* Duel-BLE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF14D372192FEBEB0088C300 /* Duel-BLETests */ = {
+			isa = PBXGroup;
+			children = (
+				EF14D378192FEBEB0088C300 /* Duel_BLETests.m */,
+				EF14D373192FEBEB0088C300 /* Supporting Files */,
+			);
+			path = "Duel-BLETests";
+			sourceTree = "<group>";
+		};
+		EF14D373192FEBEB0088C300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF14D374192FEBEB0088C300 /* Duel-BLETests-Info.plist */,
+				EF14D375192FEBEB0088C300 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF14D349192FEBEB0088C300 /* Duel-BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF14D37C192FEBEB0088C300 /* Build configuration list for PBXNativeTarget "Duel-BLE" */;
+			buildPhases = (
+				EF14D346192FEBEB0088C300 /* Sources */,
+				EF14D347192FEBEB0088C300 /* Frameworks */,
+				EF14D348192FEBEB0088C300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duel-BLE";
+			productName = "Duel-BLE";
+			productReference = EF14D34A192FEBEB0088C300 /* Duel-BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF14D36A192FEBEB0088C300 /* Duel-BLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF14D37F192FEBEB0088C300 /* Build configuration list for PBXNativeTarget "Duel-BLETests" */;
+			buildPhases = (
+				EF14D367192FEBEB0088C300 /* Sources */,
+				EF14D368192FEBEB0088C300 /* Frameworks */,
+				EF14D369192FEBEB0088C300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF14D371192FEBEB0088C300 /* PBXTargetDependency */,
+			);
+			name = "Duel-BLETests";
+			productName = "Duel-BLETests";
+			productReference = EF14D36B192FEBEB0088C300 /* Duel-BLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF14D342192FEBEB0088C300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hemant Sharma";
+				TargetAttributes = {
+					EF14D36A192FEBEB0088C300 = {
+						TestTargetID = EF14D349192FEBEB0088C300;
+					};
+				};
+			};
+			buildConfigurationList = EF14D345192FEBEB0088C300 /* Build configuration list for PBXProject "Duel-BLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF14D341192FEBEB0088C300;
+			productRefGroup = EF14D34B192FEBEB0088C300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF14D349192FEBEB0088C300 /* Duel-BLE */,
+				EF14D36A192FEBEB0088C300 /* Duel-BLETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF14D348192FEBEB0088C300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14D366192FEBEB0088C300 /* Images.xcassets in Resources */,
+				EF14D358192FEBEB0088C300 /* InfoPlist.strings in Resources */,
+				EF14D361192FEBEB0088C300 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF14D369192FEBEB0088C300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14D377192FEBEB0088C300 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF14D346192FEBEB0088C300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14D35A192FEBEB0088C300 /* main.m in Sources */,
+				EF14D364192FEBEB0088C300 /* DUViewController.m in Sources */,
+				EF14D35E192FEBEB0088C300 /* DUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF14D367192FEBEB0088C300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14D379192FEBEB0088C300 /* Duel_BLETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF14D371192FEBEB0088C300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF14D349192FEBEB0088C300 /* Duel-BLE */;
+			targetProxy = EF14D370192FEBEB0088C300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF14D356192FEBEB0088C300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF14D357192FEBEB0088C300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF14D35F192FEBEB0088C300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF14D360192FEBEB0088C300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF14D375192FEBEB0088C300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF14D376192FEBEB0088C300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF14D37A192FEBEB0088C300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF14D37B192FEBEB0088C300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF14D37D192FEBEB0088C300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel-BLE/Duel-BLE-Prefix.pch";
+				INFOPLIST_FILE = "Duel-BLE/Duel-BLE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF14D37E192FEBEB0088C300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel-BLE/Duel-BLE-Prefix.pch";
+				INFOPLIST_FILE = "Duel-BLE/Duel-BLE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF14D380192FEBEB0088C300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duel-BLE.app/Duel-BLE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel-BLE/Duel-BLE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Duel-BLETests/Duel-BLETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF14D381192FEBEB0088C300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duel-BLE.app/Duel-BLE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duel-BLE/Duel-BLE-Prefix.pch";
+				INFOPLIST_FILE = "Duel-BLETests/Duel-BLETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF14D345192FEBEB0088C300 /* Build configuration list for PBXProject "Duel-BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF14D37A192FEBEB0088C300 /* Debug */,
+				EF14D37B192FEBEB0088C300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF14D37C192FEBEB0088C300 /* Build configuration list for PBXNativeTarget "Duel-BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF14D37D192FEBEB0088C300 /* Debug */,
+				EF14D37E192FEBEB0088C300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF14D37F192FEBEB0088C300 /* Build configuration list for PBXNativeTarget "Duel-BLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF14D380192FEBEB0088C300 /* Debug */,
+				EF14D381192FEBEB0088C300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF14D342192FEBEB0088C300 /* Project object */;
+}
