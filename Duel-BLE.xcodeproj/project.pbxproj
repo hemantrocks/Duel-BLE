@@ -21,6 +21,7 @@
 		EF14D36F192FEBEB0088C300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D351192FEBEB0088C300 /* UIKit.framework */; };
 		EF14D377192FEBEB0088C300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF14D375192FEBEB0088C300 /* InfoPlist.strings */; };
 		EF14D379192FEBEB0088C300 /* Duel_BLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF14D378192FEBEB0088C300 /* Duel_BLETests.m */; };
+		EF14D383192FEC3F0088C300 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D382192FEC3F0088C300 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EF14D374192FEBEB0088C300 /* Duel-BLETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Duel-BLETests-Info.plist"; sourceTree = "<group>"; };
 		EF14D376192FEBEB0088C300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF14D378192FEBEB0088C300 /* Duel_BLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Duel_BLETests.m; sourceTree = "<group>"; };
+		EF14D382192FEC3F0088C300 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF14D383192FEC3F0088C300 /* CoreBluetooth.framework in Frameworks */,
 				EF14D350192FEBEB0088C300 /* CoreGraphics.framework in Frameworks */,
 				EF14D352192FEBEB0088C300 /* UIKit.framework in Frameworks */,
 				EF14D34E192FEBEB0088C300 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		EF14D34C192FEBEB0088C300 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF14D382192FEC3F0088C300 /* CoreBluetooth.framework */,
 				EF14D34D192FEBEB0088C300 /* Foundation.framework */,
 				EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */,
 				EF14D351192FEBEB0088C300 /* UIKit.framework */,
