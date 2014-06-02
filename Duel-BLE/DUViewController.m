@@ -19,6 +19,23 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    //load images
+    NSArray *imageNames = @[@"cowboy.png", @"cowboy-flipped.png"];
+    
+    NSMutableArray *images = [[NSMutableArray alloc] init];
+    
+    for(int i=0; i < imageNames.count; i++) {
+        [images addObject:[UIImage imageNamed:[imageNames objectAtIndex:i]]];
+    }
+    
+    //animate
+    UIImageView *animationImageView = [[UIImageView alloc] initWithFrame:CGRectMake(46, 221, 228, 255)];
+    animationImageView.animationImages = images;
+    animationImageView.animationDuration = 0.8;
+    
+    [self.view addSubview:animationImageView];
+    [animationImageView startAnimating];
+    
     
     //start timer
     [NSTimer    scheduledTimerWithTimeInterval:4

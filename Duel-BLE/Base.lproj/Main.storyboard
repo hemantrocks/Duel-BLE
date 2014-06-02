@@ -31,7 +31,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
-                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cowboy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kth-RE-IsN">
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cowboy.png" translatesAutoresizingMaskIntoConstraints="NO" id="kth-RE-IsN">
                                 <rect key="frame" x="46" y="221" width="228" height="255"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -47,7 +47,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cowboy.jpg" width="450" height="520"/>
+        <image name="cowboy.png" width="450" height="520"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

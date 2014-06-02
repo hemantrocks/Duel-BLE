@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		393ADE8719355DED00FFA1EA /* cowboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 393ADE8619355DED00FFA1EA /* cowboy.jpg */; };
+		39B569F6193D2A070052E020 /* cowboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B569F5193D2A070052E020 /* cowboy.png */; };
+		39B569F8193D2A140052E020 /* cowboy-flipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B569F7193D2A140052E020 /* cowboy-flipped.png */; };
+		39B569FA193D2B3C0052E020 /* yeehaaw-launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B569F9193D2B3C0052E020 /* yeehaaw-launch.png */; };
+		39B569FC193D2B6A0052E020 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B569FB193D2B6A0052E020 /* Icon-40@2x.png */; };
+		39B569FE193D2B7E0052E020 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B569FD193D2B7E0052E020 /* Icon-60@2x.png */; };
+		39B56A00193D2BA70052E020 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B569FF193D2BA70052E020 /* Icon-Small@2x.png */; };
+		39B56A02193D2EB40052E020 /* yeehaaw-launch-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B56A01193D2EB40052E020 /* yeehaaw-launch-retina.png */; };
 		EF14D34E192FEBEB0088C300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34D192FEBEB0088C300 /* Foundation.framework */; };
 		EF14D350192FEBEB0088C300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */; };
 		EF14D352192FEBEB0088C300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D351192FEBEB0088C300 /* UIKit.framework */; };
@@ -36,7 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		393ADE8619355DED00FFA1EA /* cowboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cowboy.jpg; sourceTree = "<group>"; };
+		39B569F5193D2A070052E020 /* cowboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cowboy.png; sourceTree = "<group>"; };
+		39B569F7193D2A140052E020 /* cowboy-flipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cowboy-flipped.png"; sourceTree = "<group>"; };
+		39B569F9193D2B3C0052E020 /* yeehaaw-launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yeehaaw-launch.png"; sourceTree = "<group>"; };
+		39B569FB193D2B6A0052E020 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		39B569FD193D2B7E0052E020 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		39B569FF193D2BA70052E020 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		39B56A01193D2EB40052E020 /* yeehaaw-launch-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yeehaaw-launch-retina.png"; sourceTree = "<group>"; };
 		EF14D34A192FEBEB0088C300 /* Duel-BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duel-BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF14D34D192FEBEB0088C300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,8 +147,14 @@
 				EF14D356192FEBEB0088C300 /* InfoPlist.strings */,
 				EF14D359192FEBEB0088C300 /* main.m */,
 				EF14D35F192FEBEB0088C300 /* Main.storyboard */,
-				393ADE8619355DED00FFA1EA /* cowboy.jpg */,
+				39B56A01193D2EB40052E020 /* yeehaaw-launch-retina.png */,
 				EF14D35B192FEBEB0088C300 /* Duel-BLE-Prefix.pch */,
+				39B569F9193D2B3C0052E020 /* yeehaaw-launch.png */,
+				39B569F5193D2A070052E020 /* cowboy.png */,
+				39B569FB193D2B6A0052E020 /* Icon-40@2x.png */,
+				39B569FF193D2BA70052E020 /* Icon-Small@2x.png */,
+				39B569FD193D2B7E0052E020 /* Icon-60@2x.png */,
+				39B569F7193D2A140052E020 /* cowboy-flipped.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -236,10 +254,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393ADE8719355DED00FFA1EA /* cowboy.jpg in Resources */,
+				39B569F6193D2A070052E020 /* cowboy.png in Resources */,
 				EF14D366192FEBEB0088C300 /* Images.xcassets in Resources */,
 				EF14D358192FEBEB0088C300 /* InfoPlist.strings in Resources */,
+				39B56A00193D2BA70052E020 /* Icon-Small@2x.png in Resources */,
+				39B569F8193D2A140052E020 /* cowboy-flipped.png in Resources */,
+				39B569FC193D2B6A0052E020 /* Icon-40@2x.png in Resources */,
 				EF14D361192FEBEB0088C300 /* Main.storyboard in Resources */,
+				39B569FA193D2B3C0052E020 /* yeehaaw-launch.png in Resources */,
+				39B56A02193D2EB40052E020 /* yeehaaw-launch-retina.png in Resources */,
+				39B569FE193D2B7E0052E020 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
