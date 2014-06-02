@@ -151,12 +151,12 @@
  
  Assign found peripheral to activePeripheral, after which do your stuff (connecting/discovering/etc...)
  
- ~~~~~~~~~~~~~~~~~~~~~~~
+======================
  
  
  Before you call CBCentralManager methods, the state of the central manager object must be powered on, as indicated by the CBCentralManagerStatePoweredOn constant. This state indicates that the central device (your iPhone or iPad, for instance) supports Bluetooth low energy and that Bluetooth is on and available to use.
  
- ~~~~~~~~~~~~~~~~~~~~~~~
+======================
  
  
  Retrieving Lists of Peripherals
