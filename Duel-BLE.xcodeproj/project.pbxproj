@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393ADE8719355DED00FFA1EA /* cowboy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 393ADE8619355DED00FFA1EA /* cowboy.jpg */; };
 		EF14D34E192FEBEB0088C300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34D192FEBEB0088C300 /* Foundation.framework */; };
 		EF14D350192FEBEB0088C300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */; };
 		EF14D352192FEBEB0088C300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D351192FEBEB0088C300 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		393ADE8619355DED00FFA1EA /* cowboy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cowboy.jpg; sourceTree = "<group>"; };
 		EF14D34A192FEBEB0088C300 /* Duel-BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duel-BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF14D34D192FEBEB0088C300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,7 +120,6 @@
 			children = (
 				EF14D35C192FEBEB0088C300 /* DUAppDelegate.h */,
 				EF14D35D192FEBEB0088C300 /* DUAppDelegate.m */,
-				EF14D35F192FEBEB0088C300 /* Main.storyboard */,
 				EF14D362192FEBEB0088C300 /* DUViewController.h */,
 				EF14D363192FEBEB0088C300 /* DUViewController.m */,
 				EF14D365192FEBEB0088C300 /* Images.xcassets */,
@@ -133,6 +134,8 @@
 				EF14D355192FEBEB0088C300 /* Duel-BLE-Info.plist */,
 				EF14D356192FEBEB0088C300 /* InfoPlist.strings */,
 				EF14D359192FEBEB0088C300 /* main.m */,
+				EF14D35F192FEBEB0088C300 /* Main.storyboard */,
+				393ADE8619355DED00FFA1EA /* cowboy.jpg */,
 				EF14D35B192FEBEB0088C300 /* Duel-BLE-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393ADE8719355DED00FFA1EA /* cowboy.jpg in Resources */,
 				EF14D366192FEBEB0088C300 /* Images.xcassets in Resources */,
 				EF14D358192FEBEB0088C300 /* InfoPlist.strings in Resources */,
 				EF14D361192FEBEB0088C300 /* Main.storyboard in Resources */,
@@ -461,6 +465,7 @@
 				EF14D37E192FEBEB0088C300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF14D37F192FEBEB0088C300 /* Build configuration list for PBXNativeTarget "Duel-BLETests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				EF14D381192FEBEB0088C300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

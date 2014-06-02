@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>92F1696C-0F20-4EB5-A644-56B1E3ED1789</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Duel-BLE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49C37E7F-8820-4E59-99B0-9DDABC9A0B16</key>
+		<string>https://github.com/hemantrocks/Duel-BLE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Duel-BLE.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49C37E7F-8820-4E59-99B0-9DDABC9A0B16</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hemantrocks/Duel-BLE.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49C37E7F-8820-4E59-99B0-9DDABC9A0B16</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49C37E7F-8820-4E59-99B0-9DDABC9A0B16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Duel-BLE</string>
+		</dict>
+	</array>
+</dict>
+</plist>

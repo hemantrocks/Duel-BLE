@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface DUViewController : UIViewController
+@property (strong, nonatomic) IBOutletCollection(UIView) NSMutableArray *opponentTable;
+
+-(void)setOpponentTable:(NSMutableArray*)opponentTable;
+-(void)checkForOpponents;
+
+
 
 @end
