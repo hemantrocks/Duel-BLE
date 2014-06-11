@@ -31,7 +31,7 @@
     //animate
     UIImageView *animationImageView = [[UIImageView alloc] initWithFrame:CGRectMake(46, 221, 228, 255)];
     animationImageView.animationImages = images;
-    animationImageView.animationDuration = 0.8;
+    animationImageView.animationDuration = 1.2;
     
     [self.view addSubview:animationImageView];
     [animationImageView startAnimating];

@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 
+
 @interface DUAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+//need to add property for volume here...  actually, this should just be in NSUserDefaults
 
 
 @end
