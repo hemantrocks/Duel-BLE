@@ -15,4 +15,6 @@
 
 //@property (weak, nonatomic) IBOutlet UISlider *sliderValue;  Maybe we want to allow volume control in view?
 
+//which methods will be public?  **
+
 @end

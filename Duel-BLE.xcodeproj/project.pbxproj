@@ -19,6 +19,7 @@
 		39B56A99194669F20052E020 /* outlawPreacher75x75.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B56A98194669F20052E020 /* outlawPreacher75x75.png */; };
 		39B56A9C1947AE7E0052E020 /* DUSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B56A9B1947AE7E0052E020 /* DUSettingsViewController.m */; };
 		39B56A9F1947B5B30052E020 /* DUDuelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B56A9E1947B5B30052E020 /* DUDuelViewController.m */; };
+		39B56AA2194E4C690052E020 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 39B56AA1194E4C690052E020 /* whistle.mp3 */; };
 		EF14D34E192FEBEB0088C300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34D192FEBEB0088C300 /* Foundation.framework */; };
 		EF14D350192FEBEB0088C300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */; };
 		EF14D352192FEBEB0088C300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF14D351192FEBEB0088C300 /* UIKit.framework */; };
@@ -61,6 +62,7 @@
 		39B56A9B1947AE7E0052E020 /* DUSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUSettingsViewController.m; sourceTree = "<group>"; };
 		39B56A9D1947B5B30052E020 /* DUDuelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUDuelViewController.h; sourceTree = "<group>"; };
 		39B56A9E1947B5B30052E020 /* DUDuelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUDuelViewController.m; sourceTree = "<group>"; };
+		39B56AA1194E4C690052E020 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
 		EF14D34A192FEBEB0088C300 /* Duel-BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duel-BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF14D34D192FEBEB0088C300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF14D34F192FEBEB0088C300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +134,14 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		39B56AA0194E4C0A0052E020 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				39B56AA1194E4C690052E020 /* whistle.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		EF14D341192FEBEB0088C300 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +195,7 @@
 		EF14D354192FEBEB0088C300 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39B56AA0194E4C0A0052E020 /* Sounds */,
 				39B56A04193EAE190052E020 /* Images */,
 				EF14D355192FEBEB0088C300 /* Duel-BLE-Info.plist */,
 				EF14D356192FEBEB0088C300 /* InfoPlist.strings */,
@@ -300,6 +311,7 @@
 				EF14D361192FEBEB0088C300 /* Main.storyboard in Resources */,
 				39B56A97194669EC0052E020 /* cowgirlGuns75x75.png in Resources */,
 				39B569FA193D2B3C0052E020 /* yeehaaw-launch.png in Resources */,
+				39B56AA2194E4C690052E020 /* whistle.mp3 in Resources */,
 				39B56A02193D2EB40052E020 /* yeehaaw-launch-retina.png in Resources */,
 				39B569FE193D2B7E0052E020 /* Icon-60@2x.png in Resources */,
 			);

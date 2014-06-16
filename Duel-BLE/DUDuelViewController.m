@@ -29,8 +29,17 @@
     // Do any additional setup after loading the view.
     
     
+
+    
+    
+    /*  ***** START BLE SIGNAL STRENGTH SCAN LOOP *****  */
+    
+    // Get initial Compass position
+    
+    /*  ***** PLAY MUSIC *****  */
+    
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
-                                         pathForResource:@"Afterlife"
+                                         pathForResource:@"Sounds/Afterlife" //I added folder path.. may not be correct way to do it...
                                          ofType:@"mp3"]];
     
     NSError *error;
@@ -45,7 +54,13 @@
         _audioPlayer.delegate = self;
         [_audioPlayer prepareToPlay];
     }
-
+    
+    /*  ***** END PLAY MUSIC *****  */
+    
+    
+    /*  ***** END BLE SIGNAL STRENGTH SCAN LOOP *****  */
+    
+    // CALL drawGun
     
     
 }
@@ -54,6 +69,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)drawGun
+{
+    // Start Timer? (I'm forgetting why this was needed, if shot data is passed instantaneously)
+    // If host, determine winner???
+    // Close BLE connection
 }
 
 /*
